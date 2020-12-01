@@ -1,0 +1,67 @@
+.App {
+    width: 492px;
+    border: 1px solid transparent;
+    margin: auto;
+}
+.header {
+    text-align: center;
+}
+.display-group {
+    display: none;
+}
+.client-details-container {
+    min-height: 170px;
+    padding-bottom: 10px;
+}
+.form-footer {
+    position: relative;
+    bottom: 0px;
+    height: 97px;
+}
+#group-switch-container {
+    min-height: 50px;
+}
+#participant-number-container {
+    width: 240px;
+    margin: auto;
+}
+#participant-number-container p {
+    margin: auto 10px 20px 10px;
+}
+/* General Styling */
+.inline-block {
+    display: inline-block;
+}
+.display-none {
+    display: none;
+}
+.client-form p {
+    margin: 0 auto 8px 31px;
+}
+.ml-31 {
+    margin-left: 31px !important;
+}
+.ml-10 {
+    margin-left: 10px !important;
+}
+.mt-0 {
+    margin-top: 0px;
+}
+.mb-0 {
+    margin-bottom: 0px;
+}
+.mb-8 {
+    margin-bottom: 8px;
+}
+.w-75 {
+    width: 314px;
+}
+.w-75 input {
+    width: 298px;
+}
+.w-25 {
+    width: 102px;
+}
+.w-25 input {
+    width: 86px;
+}

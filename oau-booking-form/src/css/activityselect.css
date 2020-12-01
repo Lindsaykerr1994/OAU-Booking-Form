@@ -1,0 +1,60 @@
+.activity-select {
+  position: relative;
+  width: 428px;
+  height: 32px;
+  border: 1px solid rgba(42, 47, 54, 0.55);
+  margin-bottom: 8px;
+  margin-left: 31px;
+}
+.activity-select select {
+  display: none;
+}
+.select-selected {
+  background-color: transparent;
+  height: 28px;
+  line-height: 28px;
+}
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #2a2f36 transparent transparent transparent;
+}
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #2a2f36 transparent;
+  top: 7px;
+}
+.select-items div,.select-selected {
+  color: #2a2f36;
+  padding: 1px 0 1px 12px;
+  cursor: pointer;
+  user-select: none;
+}
+.select-items {
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid rgba(42, 47, 54, 0.55);
+  width: 428px;
+  font-weight: 400;
+  top: 100%;
+  left: -1px;
+  right: 0;
+  z-index: 99;
+}
+.w-50 > .select-items {
+    width: 208px;
+}
+.select-items div {
+    height: 24px;
+    line-height: 24px;
+}
+.select-hide, .activity-hide, .hide-options {
+  display: none !important;
+}
+.select-items div:hover, .same-as-selected {
+  background-color: rgba(42, 47, 54, 0.1);
+}
